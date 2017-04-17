@@ -1,0 +1,774 @@
+@charset "utf-8";
+/* CSS Document */
+
+.todo{
+    padding:0;
+    margin:0;   
+	
+    font-family: 'Viga', sans-serif;
+}
+
+
+.cabecera{   /*estilo: padre*/
+    border-top: 4px solid #333333;
+    background-color:rgba(48, 48, 48, 0.2);
+	background-color:#c1bfbf;/*Segunda Opcion*/
+	
+	
+    width:100%;
+    height:200px;    
+}
+.fila{   /*estilo: hijo de cabecera*/
+    width:960px;
+    margin:0px auto;
+
+}
+.logo {      /*estilo: hijo de fila*/
+
+	background-color:#ff5900;
+    width:50%;   
+    height:230px;
+    float:left;
+	
+	
+}
+
+.logo h3, .logo h4{
+	
+	font-size: 15px;
+}
+.sociales{     /*estilo: hijo de fila*/
+   	background-color:#ff5900;
+    width:50%;   
+     height:230px;
+    float:left; 
+	font-size: 1px;
+}
+
+.sociales h3, .sociales h4{
+	
+	font-size: 15px;
+}
+.filaSociales{   
+    width:300px;
+    height:66px;
+    margin:0px auto;
+}
+.suscribete{
+	background-color: #1C2750;
+	color: #808080;
+	border-radius: 5px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+  	height: 30px;
+  	width: 150px;
+  	display: table;
+  	margin: 18px auto;
+}
+.suscribete:hover{
+	background: #808080;
+	color: #000000;
+}
+.enlaceB{
+	color: #ffffff;
+	text-decoration: none; 
+}
+
+.enlaceB:hover{
+	color: #ffffff;
+	text-decoration: none; 
+}
+.numeros{
+  font-size: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  float: left;
+}
+
+/*menuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu*/
+/*------------------MENU de abajo-----------------*/
+/*estilo: caja padre*/
+.menu{
+	background-color:rgba(237,131,26,1);
+    width:100%;
+	height:48px;
+	z-index:20;
+
+}
+/*estilo: caja hijo de MENU*/
+.menu1{
+	width:960px;
+	height:50px;
+	margin:0px auto;
+	padding:0;
+	font-size:14px;
+	z-index:20;
+	
+	
+}
+/*ESTILOS GENERALES*/
+nav ul {
+	list-style:none;/*desaparece viñetas*/
+	padding:0;/*desaparece la sangria*/
+	z-index:20;
+}
+nav li{
+	line-height: 3rem;	
+	position:relative;
+
+}
+.menuN ul{
+	position:absolute;
+	
+}
+nav a{    
+	color:#ffffff;   /*color de letra del texto*/
+	display:block;
+	padding:0 2.4em; /*para separar las opciones*/
+	text-decoration:none;
+	transition:.4s;
+	
+}
+nav a:hover {
+	background:rgba(0,0,0,.5);
+}
+/*PRIMER NIVEL*/
+.menuN     /*Selector hijo solo afectara a a los que estan dentro del nav */
+{ 
+	background-color:rgba(237,131,26,1);
+	display:table;
+	width:960px;
+}
+.menuN > li{
+	float: left;	
+}
+/*--------------------FIN MENU-------------------*/
+
+/*------------------MENU DEL SLIDER-----------------*/
+.filaSlider {
+	
+	width:960px;
+    margin:0px auto;
+	height:100%;
+}
+.menuSlider{
+	width: 100%;
+	height: 60px;
+	top: 0px;
+	text-align:center;
+	position: fixed;
+	z-index: 20;
+	background:#000000;
+}
+.tituloIcei{
+	
+	line-height: 60px;
+	color: #ffffff;
+	font-size: 45px;
+	padding-top: 100px;
+
+
+}
+.logoSlider{
+	width: 45%;  
+    height:100%;
+    float:left;
+
+	
+}
+.menuSlider1{
+	width: 55%;  
+    height:100%;
+    float:left;
+}
+
+.menuSlider1 > nav > .menuSliderN {
+	list-style:none;/*desaparece viñetas*/
+	padding:0px;/*desaparece la sangria*/
+	
+}
+.menuSlider1 > nav > .menuSliderN > li{
+	line-height: 3rem;	
+	position:relative;
+}
+.menuSliderN ul{
+	position:absolute;
+}
+.menuSlider1 > nav >.menuSliderN > li > .enlaceM {
+	color:#ffffff;   /*color de letra del texto*/
+	display:block;
+	padding:1.1em 1.4em; /*para separar las opciones*/
+	text-decoration:none;
+	
+}
+.menuSlider1 > nav >.menuSliderN > li > .enlaceM:hover{
+	background:rgba(255,140,0,.5);
+	border-radius: 5px;
+}
+/*PRIMER NIVEL*/
+.menuSliderN {    /*Selector hijo solo afectara a a los que estan dentro del nav */
+	display:table;
+	width:960px;
+}
+.menuSliderN > li{
+	float: left;	
+}
+
+/*--------------------FIN MENU-------------------*/
+.info{
+	width: 30%;
+	height: 70%;
+	top: 20%;
+	font-size: 20px;
+	border-radius: 10%;
+	background-color: aqua;
+	position: absolute;
+    bottom: 50px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+}
+.item .info span{
+	color: #ffffff;
+}
+/*.info{
+	position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+	
+}*/
+
+
+.informacion{    /*estilo: padre*/
+    width:100%;
+    height:510px;    
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.talleres{
+	background-image:url(imagenes/img.jpg);
+    width:33%;   
+    height:480px;
+    margin-right: 0.5%;
+    float:left;
+}
+.cursos{
+	background-image:url(imagenes/img2.jpg);
+    width:33%;   
+    height:480px;
+    margin-right: 0.5%;
+    float:left;
+}
+.seminarios{
+	background-image:url(imagenes/img3.png);
+    width:33%;   
+    height:480px;
+    float:left;
+}
+.titulo1{
+	width:100%;
+	height:40px;
+	font-size:20px;
+	text-align: center;
+	line-height: 36px;
+	font-weight:bold;
+	color: #ffffff;
+	background: rgba(215, 44, 44, 0.7);
+	margin-top:200px;
+}
+.descripcion1{
+	width:100%;
+	height:235px;
+	background: rgba(215, 44, 44, 0.9);
+	margin-top:5px;
+}
+.titulo2{
+	width:100%;
+	height:40px;
+	font-size:20px;
+	text-align: center;
+	line-height: 36px;
+	font-weight:bold;
+	color: #ffffff;
+	background: rgba(115, 74, 255, 0.7);
+	margin-top:200px;
+
+}
+.descripcion2{
+	width:100%;
+	height:235px;
+	background: rgba(115, 74, 255, 0.9);
+	margin-top:5px;
+}
+.titulo3{
+	width:100%;
+	height:40px;
+	font-size:20px;
+	text-align: center;
+	line-height: 36px;
+	font-weight:bold;
+	color: #ffffff;
+	background: rgba(12, 155, 255, 0.7);
+	margin-top:200px;
+}
+.descripcion3{
+	width:100%;
+	height:235px;
+	background:#413FD4;
+	background: rgba(12, 155, 255, 0.9);
+	margin-top:5px;
+}
+.botones{
+	background-color: #1C2750;
+	color: #808080;
+	border-radius: 5px;
+	font-size: 15px;
+	text-align: center;
+	line-height: 40px;
+  	height: 30px;
+  	width: 150px;
+  	display: table;
+  	margin-top: 180px;
+  	margin-left: 83.4px;
+  	float: left;
+}
+
+/*estilo: historia*/ /* -----------------------------------------------------------------------------------------*/
+.barra , .barra2 > h3 {
+	text-align: center;
+	font-size: 30px;
+	line-height: 80px;
+}
+.barra{
+
+	
+	background: rgba(236,118,2,.9);
+
+    width:100%;
+	height:85px;	
+	color: #ffffff;		
+}
+
+.his {
+
+	 	width:100%;
+		height:700px;		
+		background-image:url(imagenes/fondo4-conLogo4.png);
+		text-align: center;
+}
+.contenedor{
+
+ 	width:960px;
+    margin:0px auto;
+	height: 700px;	
+	
+}
+
+.cuadro1{
+
+	width:320px;
+	height:350px;
+	float: left;
+	font-size: 25px;
+
+}
+
+.tituloB{
+	
+	width:80%;
+	height: 28px;
+	margin-left: 32px;
+	margin-top: 255px;
+	font-size: 30px;
+	font-family: 'Squada One', cursive;
+}
+
+.tituloC{
+	font-size: 25px;
+	font-family: 'Viga', sans-serif;
+	font-style:oblique;
+}
+.c1,.c2,.c3,.c3,.c4,.c5,.c6{
+	font-family: 'Squada One', cursive;
+}
+
+
+
+.c1{
+
+		width: 170px;
+		height: 170px;
+		border-radius: 100%;
+		float: left;
+		margin-left: 75px;
+		margin-right: 75px;
+		margin-top: 43px;
+		background: #FF0000;
+	
+}
+
+.c1:hover{
+
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	float: left;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top: 27px;
+	background:rgba(220,10,10,0.6);
+	
+
+}
+
+
+.c2{
+		width: 170px;
+		height: 170px;
+		border-radius: 100%;
+		float: left;
+		margin-left: 75px;
+		margin-right: 75px;
+		margin-top: 43px;
+		background: #8000FF;
+	
+		
+}
+.c2:hover{
+
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	float: left;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top: 27px;
+	background:rgba(107,13,239,0.6);
+
+}
+
+.c3{
+		width: 170px;
+		height: 170px;
+		border-radius: 100%;
+		float: left;
+		margin-left: 75px;
+		margin-right: 75px;
+		margin-top: 43px;
+		background: #31B404;
+}
+.c3:hover{
+
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	float: left;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top: 27px;
+	background:rgba(13,239,25,0.6);
+
+}
+
+.c4{
+		width: 170px;
+		height: 170px;
+		border-radius: 100%;
+		float: left;
+		margin-left: 75px;
+		margin-right: 75px;
+		margin-top: 43px;
+		background: #0000FF;
+}
+.c4:hover{
+
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	float: left;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top: 27px;
+	background:rgba(13,47,239,0.6);
+
+}
+.c5{
+		width: 170px;
+		height: 170px;
+		border-radius: 100%;
+		float: left;
+		margin-left: 75px;
+		margin-right: 75px;
+		margin-top: 43px;
+		background: #0174DF;
+}
+.c5:hover{
+
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	float: left;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top: 27px;
+	background:rgba(13,198,239,0.6);
+
+}
+
+.c6{
+		width: 170px;
+		height: 170px;
+		border-radius: 100%;
+		float: left;
+		margin-left: 75px;
+		margin-right: 75px;
+		margin-top: 43px;
+		background: #DF3A01;
+		
+}
+.c6:hover{
+
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	float: left;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top: 27px;
+	background:rgba(239,73,13,0.6);
+
+}
+
+/*---------------DESDE AQUI SON LOS CIRCULOS CON SUS NROS--------------*/
+
+.nro{
+
+	color:#ffffff;
+	font-size:100px;	
+	line-height: 140px;
+
+}
+.nro:hover{
+
+	font-size: 120px;
+	color: #fff;
+	line-height: 180px;
+	cursor: pointer;
+
+}
+
+
+@keyframes slidein{
+
+  from{
+    margin-top: 100%;
+    width: 300%;
+  }
+
+  to{
+    margin-top: 0%;
+    width: 100%;
+  }
+
+}
+/*para los objetivos  - mision - vision*/
+
+
+.cuadro2{
+	width:960px;
+	height: 350px;
+}
+
+
+.misiones {
+	width: 305px;
+	height: 270px;
+	margin-top:20px;
+	margin-bottom: 20px;
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	margin-left:10px;
+
+	float: left;
+ 
+	border: 1px solid #000;
+	background: #fff;
+	border-radius: 30px;
+}
+
+/*para los convenios*/
+.tituloconvenios{
+
+	margin-top: 30px;
+}
+
+
+.imagenes {
+	
+	width:190px;
+	height: 100px;
+	margin-top:80px;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	transition:filter 0.4s;
+    -webkit-transition:-webkit-filter 1s;
+
+    margin-left: 50px;   
+}
+
+
+.imagenes2{
+	width:200px;
+	height: 130px;
+	margin-top:80px;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	transition:filter 0.4s;
+    -webkit-transition:-webkit-filter 1s;   
+    margin-left: 50px;	
+}
+
+
+.imagenes:hover ,.imagenes2:hover{
+	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
+	
+}
+/**para los objetivos  - mision - vision*/
+/*.article{
+	width: 320px;
+	
+	padding: 20px;
+	background:#fff;
+	margin-bottom: 20px;
+}
+.obj, .mision, .vision{
+
+	float: left;
+	margin-bottom: 20px; 
+	border: 1px solid #000;
+}*/
+
+/*estilo para el pie*/
+.pie{
+	background-color: #ff5900;
+	width:100%;
+    height:230px;
+	color: #ffffff;
+	
+}
+.imagenPie{
+	width: 200px;
+	height: 75px;
+	margin-left:  140px;
+}
+
+/*para la referencia*/
+.referencia{
+    background-color:rgba(255,89,0,.9);
+    width:100%;
+    height:50px;  
+}
+.ref{
+	width:960px;
+    margin:0px auto;
+}
+
+.ref1{      /*estilo: hijo de fila*/
+   
+    width:50%;   
+    height:50px;
+    float:left;
+	font-family: 'Viga', sans-serif;	
+	line-height: 4em;
+}
+
+
+.ref2{     /*estilo: hijo de fila*/
+   
+    width:50%;   
+    height:50px;
+    float: left;   
+	font-family: 'Viga', sans-serif;
+	line-height: 4em;
+	text-align: right;
+}
+/*para el suscribete.html*/
+form{
+
+	width: 25%;
+	border: 1px solid #ccc;
+	margin: 20px;
+	padding: 20px;
+
+	margin-left: 500px;
+}
+
+label , select{
+	font-size: 12px;
+	display: block;
+	width: 100%;
+}
+
+input, textarea , select{
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 10px;
+	height: 37px;
+	box-sizing: border-box;
+	border: 1px solid #821588;
+}
+input:focus, textarea:focus , select:focus{
+	border: 1px solid #1668c4;
+}
+
+textarea{
+	resize: horizontal;
+	max-height: 500px;
+	min-height: 500px;
+}
+
+.boton {
+
+	margin-bottom: 0px;
+	background: #821588;
+	color:#fff;
+	border:none;
+
+}
+
+.boton:hover {
+		background:#A569BD;
+		cursor: pointer;
+		color:#000;
+
+}
+
+
+select {
+	font-size: 12px;
+	display: block;
+	width: 100%; 
+	padding-bottom:  3px;
+}
+
+/*ANUNCIO*/
+article {
+	
+	margin-top:  20px;
+
+}
