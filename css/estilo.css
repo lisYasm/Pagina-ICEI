@@ -96,8 +96,7 @@
 	width: 150px;  
     height:55px;
 	margin-top: 4px;
-	margin-left: 5px;
-	margin-left: 5px;
+	float: left;
 }
 .menu{
 	background-color:rgba(237,131,26,1);
@@ -303,21 +302,21 @@ nav a:hover {
     margin-bottom: 20px;
 }
 .talleres{
-    background-image: url(imagenes/img.jpg);
+    background-image: url(../imagenes/img.jpg);
 	width:33%;   
     height:200px;
     margin-right: 0.5%;
     float:left;
 }
 .cursos{
-	background-image:url(imagenes/img2.jpg);
+	background-image:url(../imagenes/img2.jpg);
     width:33%;   
     height:200px;
     margin-right: 0.5%;
     float:left;
 }
 .seminarios{
-	background-image:url(imagenes/img3.jpg);
+	background-image:url(../imagenes/img3.jpg);
     width:33%;   
     height:200px;
     float:left;
