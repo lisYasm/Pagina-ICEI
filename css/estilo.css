@@ -4,7 +4,6 @@
 .todo{
     padding:0;
     margin:0;   
-	
     font-family: 'Viga', sans-serif;
 }
 
@@ -38,6 +37,17 @@
 .letraInstituto{
 	padding-top: 7px;
 	font-size: 25px;
+	color:#0E2250;
+	font-weight:bolder;
+		
+}
+.letraInstituto2{
+	font-size: 25px;
+	color:#0E2250;
+	font-weight:bolder;
+	line-height: 5px;
+	height: auto;
+		
 }
 .sociales{     /*estilo: hijo de fila*/
    	background-color:#ff5900;
@@ -254,7 +264,11 @@ nav a:hover {
 	margin-left: 20px;
 }
 /*flechitas*/
-#flecha{
+#flechaizq{
+	color: #ff5900;
+	font-size: 60px;
+}
+#flechader{
 	color: #ff5900;
 	font-size: 60px;
 }
@@ -303,21 +317,21 @@ nav a:hover {
     margin-bottom: 20px;
 }
 .talleres{
-    background-image: url(../imagenes/img.jpg);
+    background-image: url( ../imagenes/fondos/img.jpg);
 	width:33%;   
     height:200px;
     margin-right: 0.5%;
     float:left;
 }
 .cursos{
-	background-image:url(../imagenes/img2.jpg);
+	background-image:url(../imagenes/fondos/img2.jpg);
     width:33%;   
     height:200px;
     margin-right: 0.5%;
     float:left;
 }
 .seminarios{
-	background-image:url(../imagenes/img3.jpg);
+	background-image:url(../imagenes/fondos/img3.jpg);
     width:33%;   
     height:200px;
     float:left;
@@ -476,14 +490,14 @@ nav a:hover {
 
 	 	width:100%;
 		height:700px;		
-		background-image:url(../imagenes/fondo4-conLogo4.png);
+		background-image:url( ../imagenes/fondos/fondo1.png);
 		text-align: center;
 }
 .his2 {
 
 	 	width:100%;
 		height:700px;		
-		background-image:url( ../imagenes/11.png);
+		background-image:url(../imagenes/fondos/fondo2.png);
 		text-align: center;
 }
 
@@ -823,8 +837,8 @@ nav a:hover {
 	background-color: #ff5900;
 	width:100%;
     height:230px;
-	color: #ffffff;
-	
+	color:rgba(14,34,80,1);
+
 }
 .imagenPie{
 	width: 200px;
@@ -838,7 +852,7 @@ nav a:hover {
 	background-color: #ff5900;
     width:100%;
     height:50px;  
-	color: #ffffff;
+	color:rgba(14,34,80,1);
 	transform-style: preserve-3d;
 	transition: transform 500ms ease-in-out;
 	border-top:1px solid rgba(236,118,2,0.9); 
@@ -931,5 +945,190 @@ select {
 article {
 	
 	margin-top:  20px;
-
 }
+
+
+
+
+/*para la parte de cursos.html, talleres.html y seminarios.html*/
+.contenedorC{
+	width: 960px;
+	height: 1210px;
+	margin: 0px auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.C{
+	width: 620px;
+	height: 1200px;
+	float: left;
+	margin-right: 15px;
+}
+.testimonios{
+	width: 300px;
+	height: 1200px;
+	float: left;
+	background-color: darkred;
+}
+.informacionC{    
+    width:600px;
+    height:auto;    
+    margin: 10px;
+}
+.tituloCu{
+	height: 100px;
+	background: rgba(115,74,255,0.7);
+}
+.tituloCu:hover{
+	height: 100px;
+	background: rgba(115,74,255,0.9);
+	cursor: pointer;
+}
+.imagenTituloC{
+	width: 20%;
+	height: 100px;
+	float: left;
+	
+}
+.letraTituloC{
+	width: 80%;
+	height: 100px;
+	font-size: 25px;
+	text-align: center;
+	/*vertical-align: center;
+	display: table-cell;*/
+	color: #ffffff;
+	line-height: 40px;
+	float: left;
+}
+.imagenesTituloC{
+	width: 70%;
+	height: auto;
+	margin: 15px;
+}
+.contenidoC{
+	height: 350px;
+}
+
+.contenedorT{
+	width: 960px;
+	height: 550px;
+	margin: 0px auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.T{
+	width: 620px;
+	height: 500px;
+	float: left;
+	margin-right: 15px;
+}
+.testimoniosT{
+	width: 300px;
+	height: 500px;
+	float: left;
+	background-color: darkred;
+}
+.informacionT{    
+    width:600px;
+    height:auto;    
+    margin: 10px;
+}
+.tituloT{
+	height: 100px;
+	background: rgba(215,44,44,0.7);
+}
+.tituloT:hover{
+	height: 100px;
+	background: rgba(215,44,44,0.9);
+	cursor: pointer;
+}
+.imagenTituloT{
+	width: 20%;
+	height: 100px;
+	
+	float: left;
+	
+}
+.letraTituloT{
+	width: 80%;
+	height: 100px;
+	font-size: 25px;
+	text-align: center;
+	/*vertical-align: center;
+	display: table-cell;*/
+	color: #ffffff;
+	line-height: 40px;
+	float: left;
+}
+.imagenesTituloT{
+	width: 70%;
+	height: auto;
+	margin: 15px;
+	border-radius: 100%;
+}
+.contenidoS{
+	height: 350px;
+}
+
+
+.contenedorS{
+	width: 960px;
+	height: 550px;
+	margin: 0px auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.S{
+	width: 620px;
+	height: 500px;
+	float: left;
+	margin-right: 15px;
+}
+.testimoniosS{
+	width: 300px;
+	height: 500px;
+	float: left;
+	background-color: darkred;
+}
+.informacionS{    
+    width:600px;
+    height:auto;    
+    margin: 10px;
+}
+.tituloS{
+	height: 100px;
+	background: rgba(12,155,255,0.7);
+}
+.tituloS:hover{
+	height: 100px;
+	background: rgba(12,155,255,0.9);
+	cursor: pointer;
+}
+.imagenTituloS{
+	width: 20%;
+	height: 100px;
+	
+	float: left;
+	
+}
+.letraTituloS{
+	width: 80%;
+	height: 100px;
+	font-size: 25px;
+	text-align: center;
+	/*vertical-align: center;
+	display: table-cell;*/
+	color: #ffffff;
+	line-height: 40px;
+	float: left;
+}
+.imagenesTituloS{
+	width: 70%;
+	height: auto;
+	border-radius: 100%;
+}
+.contenidoS{
+	height: 350px;
+}
+

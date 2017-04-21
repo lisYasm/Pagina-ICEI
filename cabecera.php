@@ -7,7 +7,7 @@
     	<div class="logoSlider">
        	<!-- <img src="imagenes/logo_icei.png" class="logoImg2">-->
         <!-- <font class="tituloIcei"> ICEI <img src="imagenes/aros.png" class="logoImg"></font> -->
-        	<img src="imagenes/logo_iceiBlanco.png" class="logoImg2">
+        	<img src="imagenes/logos/logo_iceiBlanco.png" class="logoImg2">
 		</div>             		
         <div class="menuSlider1">   <!--hijo de MENU-->
         	<nav >              <!--contenedor de opciones-->
@@ -42,7 +42,7 @@
 		<div class="item active">
 			<!-- PARA EL PRIMER SLIDE-->
 			<div class="fill">
-				<video src="imagenes/22.mp4" autoplay loop muted preload="auto" width="100%">
+				<video src="imagenes/slider/22.mp4" autoplay loop muted preload="auto" width="100%">
 					Video no soportado :(
 				</video>
 			</div>
@@ -50,14 +50,14 @@
 				<h4>Convenios con:</h4>
 			</div>
 			<div class="convenios">        	
-				<img class= "imagenSliderVideo" src="imagenes/emi.png" width="20%">
-				<img class= "imagenSliderVideo" src="imagenes/industrial.png" width="10%">
-				<img class= "imagenSliderVideo" src="imagenes/salesiana.png" width="20%">
+				<img class= "imagenSliderVideo" src="imagenes/slider/emi.png" width="20%">
+				<img class= "imagenSliderVideo" src="imagenes/slider/industrial.png" width="10%">
+				<img class= "imagenSliderVideo" src="imagenes/slider/salesiana.png" width="20%">
 			</div>
 		</div>
 		<div class="item">
 			<!--  PARA EL SEGUNDO SLIDE -->
-			<div class="fill" style="background-image:url(imagenes/1.jpg);"></div>  
+			<div class="fill" style="background-image:url(imagenes/slider/1.jpg);"></div>  
 			<div class="info">
 				<h1>CARRERA: ARDUINO</h1>
 				<h3><br/>MODULO I - ARDUINO BASICO <br/><br/>INICIA EL: 04/08/2017 <br/>HORARIO: 15:00-17:00<br/><br/></h3>
@@ -78,7 +78,7 @@
 		</div>
 		<div class="item">
 			<!-- PARA EL TERCER SLIDE -->
-			<div class="fill" style="background-image:url(imagenes/2.jpg);"></div>
+			<div class="fill" style="background-image:url(imagenes/slider/2.jpg);"></div>
 			<div class="info">
 				<h1>CARRERA: REDES</h1>
 				<h3><br/>MODULO I - ESTUDIO Y DISEÑO DE REDES<br/><br/>INICIA EL: 04/08/2017<br/>HORARIO: 15:00-17:00<br/><br/></h3>
@@ -99,7 +99,7 @@
 		</div>
 		<div class="item">
 			<!-- PARA EL CUARTO SLIDE -->
-			<div class="fill" style="background-image:url(imagenes/3.jpg);"></div>
+			<div class="fill" style="background-image:url(imagenes/slider/3.jpg);"></div>
 			<div class="info">
 				<h1>CARRERA: LINUX</h1>
 				<h3><br/>MODULO I - INTRODUCCION A LOS SISTEMAS OPEN SOURCE<br/><br/>INICIA EL: 04/08/2017<br/>HORARIO: 19:00-21:00<br/><br/></h3>
@@ -120,7 +120,7 @@
 		</div>
 		<div class="item">
 			<!-- PARA EL QUINTO SLIDE -->
-			<div class="fill" style="background-image:url(imagenes/4.png);"></div>
+			<div class="fill" style="background-image:url(imagenes/slider/4.png);"></div>
 			<div class="info">
 				<h1>CARRERA: ETHICAL HACKING</h1>
 				<h3><br/>MODULO I - ETHICAL HACKING FASES DE UN ATAQUE<br/><br/>INICIA EL: 04/08/2017<br/>HORARIO: 19:00-21:00<br/><br/></h3>
@@ -141,7 +141,7 @@
 		</div>  
 		<div class="item">
 			<!-- PARA EL SEXTO SLIDE -->
-			<div class="fill" style="background-image:url(imagenes/5.jpg);"></div>
+			<div class="fill" style="background-image:url(imagenes/slider/5.jpg);"></div>
 			<div class="info">
 				<h1>CARRERA: TECNOLOGIA WEB</h1>
 				<h3><br/>MODULO I - DISEÑO DE INTERFACES WEB<br/><br/>INICIA EL: 04/08/2017<br/>HORARIO: 15:00-17:00<br/><br/></h3>
@@ -162,7 +162,7 @@
 		</div> 
 		<div class="item">
 			<!-- PARA EL SEPTIMO SLIDE -->
-			<div class="fill" style="background-image:url(imagenes/8.jpg);"></div>
+			<div class="fill" style="background-image:url(imagenes/slider/8.jpg);"></div>
 			<div class="info">
 				<h1>CARRERA: TECNOLOGIA JAVA</h1>
 				<h3><br/>MODULO I - FUNDAMENTOS DE PROGRAMACION EN JAVA<br/><br/>INICIA EL: 04/08/2017<br/>HORARIO: 08:30-12:30<br/><br/></h3>
@@ -183,7 +183,7 @@
 		</div> 
 		<div class="item">
 			<!-- PARA EL OCTAVO SLIDE -->
-			<div class="fill" style="background-image:url(imagenes/6.png);"></div>
+			<div class="fill" style="background-image:url(imagenes/slider/6.png);"></div>
 			<div class="info">
 				<h1>CARRERA: ORACLE</h1>
 				<h3><br/>MODULO I - SQL PROGRAMMING 11g<br/><br/>INICIA EL: 04/08/2017<br/>HORARIO: 08:00-10:00<br/><br/></h3>
@@ -204,7 +204,7 @@
 		</div> 
 		<div class="item">
 			<!-- PARA EL OCTAVO SLIDE -->
-			<div class="fill" style="background-image:url(imagenes/7.png);"></div>
+			<div class="fill" style="background-image:url(imagenes/slider/7.png);"></div>
 			<div class="info">
 				<h1>CARRERA: VISUAL STUDIO</h1>
 				<h3><br/>MODULO I - SQL PROGRAMMING 11g<br/><br/>INICIA EL: 04/08/2017<br/>HORARIO: 08:00-10:00<br/><br/></h3>
@@ -226,9 +226,9 @@
 	</div>
 		<!-- Controles -->
 		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-		   <span id="flecha" class="icon-prev"></span>
+		   <span id="flechaizq" class="icon-prev"></span>
 		</a>
 		<a class="right carousel-control" href="#myCarousel" data-slide="next">
-		   <span id="flecha" class="icon-next"></span>
+		   <span id="flechader" class="icon-next"></span>
 		</a>
 </header>

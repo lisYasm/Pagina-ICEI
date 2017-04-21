@@ -3,10 +3,10 @@
    <div class="fila">      <!--hijo de CABECERA-->
         <div class="logo">  <!--hijo de FILA-->
            
-            <div class="letraInstituto">Instituto T&eacutecnico</div> 
-            <h4>Ingenieria y Capacitaci&oacuten en Electr&oacutenica e Inform&aacutetica S.R.L.</h4>
-          
-            <span class="icon-location"></span> <h4> &nbsp;&nbsp; Calle Cochabamba No.100 Edif. Jose Santos Piso 3 </h4>
+            <div class="letraInstituto">Instituto T&eacutecnico </div> 
+             	 <h4 class="letraInstituto2">Ingenieria y Capacitaci&oacuten en Electr&oacutenica e Inform&aacutetica S.R.L.</h4>
+     	<br/>
+            <span class="icon-location"></span> <h4> &nbsp;&nbsp;Calle Cochabamba No.100 Edif. Jose Santos Piso 3 </h4>
             <h4> &nbsp;&nbsp;(Lado Edif. Loteria Nacional)</h4>
        
             <span class="icon-phone2"></span><h4> &nbsp;&nbsp; 211 7862 - 720 21277</h4>
@@ -22,7 +22,7 @@
                 <a href="https://es-la.facebook.com/instituto.icei.srl/"><span class="icon-facebook"></span></a>
                 <a href="https://twitter.com/@institutoicei"><span class="icon-twitter"></span></a>
             </div>
-            <img class = imagenPie src="imagenes/logo_iceiBlanco.png" > 
+            <img class = imagenPie src="imagenes/logos/logo_iceiBlanco.png" > 
         </div>
     </div>
 </div>
