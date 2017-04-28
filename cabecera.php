@@ -7,16 +7,16 @@
     	<div class="logoSlider">
        	<!-- <img src="imagenes/logo_icei.png" class="logoImg2">-->
         <!-- <font class="tituloIcei"> ICEI <img src="imagenes/aros.png" class="logoImg"></font> -->
-        	<img src="imagenes/logos/logo_iceiBlanco.png" class="logoImg2">
+       	<a href="index.php"><img src="imagenes/logos/logo_iceiBlanco.png" class="logoImg2"></a>
 		</div>             		
         <div class="menuSlider1">   <!--hijo de MENU-->
         	<nav >              <!--contenedor de opciones-->
-            	<ul class="menuSliderN">
-                                    <li><a href="#" class="enlaceM">NOTAS</a></li>
-                                    <li><a href="#" class="enlaceM">RESERVAS</a></li>
-                                    <li><a href="#" class="enlaceM">SEMINARIOS</a></li>
-                                    <li><a href="#" class="enlaceM">TALLERES</a></li>
-                                    <li><a href="#" class="enlaceM">CURSOS</a></li>    
+            	<ul class="menuSliderN"> 
+                   <li><a href="iniciosesion.php#iniciarSesion" class="enlaceM">INICIAR SESI&Oacute;N</a></li>
+                   <li><a href="suscribete.php#suscribete" class="enlaceM">RESERVAS</a></li>
+                   <li><a href="seminarios.php#seminarios" class="enlaceM">SEMINARIOS</a></li>
+                   <li><a href="talleres.php#talleres" class="enlaceM">TALLERES</a></li>
+                   <li><a href="cursos.php#cursos" class="enlaceM">CURSOS</a></li>    
 				</ul>    
          	</nav>            
         </div>
@@ -160,6 +160,7 @@
 				</div>        
 			</div>      
 		</div> 
+
 		<div class="item">
 			<!-- PARA EL SEPTIMO SLIDE -->
 			<div class="fill" style="background-image:url(imagenes/slider/8.jpg);"></div>

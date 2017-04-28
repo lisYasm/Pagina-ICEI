@@ -21,7 +21,7 @@
 						<li>DISEÑO DE PLACAS</li>
 					</ul>
 				</div>	
-               <div class="debajoBoton"> <div class="botones"><a href="#" class="enlaceB">MAS INFORMACION</a></div></div>
+               <div class="debajoBoton"> <div class="botones"><a href="talleres.php#talleres" class="enlaceB">MAS INFORMACION</a></div></div>
 			<div class="se-muestra1">Se muestra 5/10 Talleres</div>
             </div>
             
@@ -41,7 +41,7 @@
 						<li>ARDUINO</li>						
 					</ul>
 				</div>	
-                <div class="debajoBoton"> <div class="botones"><a href="#" class="enlaceB">MAS INFORMACION</a></div></div>
+                <div class="debajoBoton"> <div class="botones"><a href="cursos.php#cursos" class="enlaceB">MAS INFORMACION</a></div></div>
 				<div class="se-muestra2">Se muestra 7/10 Cursos</div>
             </div>
         </div>
@@ -57,7 +57,7 @@
 						<li>DISEÑO DE INTERFAZ EN C#</li>
 					</ul>
 				</div>	
-               <div class="debajoBoton"> <div class="botones"><a href="#" class="enlaceB">MAS INFORMACION</a></div></div>
+               <div class="debajoBoton"> <div class="botones"><a href="seminarios.php#seminarios" class="enlaceB">MAS INFORMACION</a></div></div>
                	<div class="se-muestra3">Se muestra 5/10 Seminarios</div>
             </div>
         </div>
@@ -112,7 +112,7 @@
                  <div class="c6">
                     <h2 class="nro">15</h2>
                  </div>
-            <p class="tituloB">AULAS<br><h4 class="tituloC">Total mente equipadas</h4></p>
+            <p class="tituloB">AULAS<br><h4 class="tituloC">Totalmente equipadas</h4></p>
         </div>
         
     </div>

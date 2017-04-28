@@ -45,7 +45,21 @@
 
 </div>
     
-
+<script type="text/javascript">
+$(document).ready(function(){
+ 	$(".despliegue" ).click("show",function(e) {
+		var sw=$(this).attr("rel");
+		if(sw=="0"){
+    	$(this).next().slideDown();
+		$(this).attr("rel","1");
+		}
+		else{
+		$(this).next().slideUp();
+		$(this).attr("rel","0");
+		}		
+	});
+});
+</script>
     <!-- Script to Activate the Carousel -->
     <script>
     $('.carousel').carousel({

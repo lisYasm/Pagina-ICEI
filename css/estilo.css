@@ -477,14 +477,24 @@ nav a:hover {
 	line-height: 80px;
 }
 .barra{
-
-	
 	/*background: rgba(236,118,2,.9);*/
 	background-color: #ff5900;
 
     width:100%;
 	height:85px;	
 	color: #ffffff;		
+}
+.barra3{
+	background-color: #ff5900;
+	margin: 0px auto;
+    width:940px;
+	height:85px;	
+	color: #ffffff;	
+}
+.barra3 , .barra2 > h3 {
+	text-align: center;
+	font-size: 30px;
+	line-height: 80px;
 }
 .his {
 
@@ -511,6 +521,7 @@ nav a:hover {
 }
 
 .cuadro1{
+
 
 	width:320px;
 	height:350px;
@@ -885,13 +896,14 @@ nav a:hover {
 /*para el suscribete.html*/
 form{
 
-	width: 25%;
-	border: 1px solid #ccc;
+	width: 35%;
+	border: 2px solid #FF5900;
+	border-radius: 3%;
 	margin: 20px;
 	padding: 20px;
-
-	margin-left: 500px;
+	margin-left: 32%;
 }
+
 
 label , select{
 	font-size: 12px;
@@ -905,10 +917,10 @@ input, textarea , select{
 	padding: 10px;
 	height: 37px;
 	box-sizing: border-box;
-	border: 1px solid #821588;
+	border: 1px solid #ff5900;
 }
 input:focus, textarea:focus , select:focus{
-	border: 1px solid #1668c4;
+	border: 1px solid #E09C6F;
 }
 
 textarea{
@@ -920,14 +932,14 @@ textarea{
 .boton {
 
 	margin-bottom: 0px;
-	background: #821588;
+	background: #ff5900;
 	color:#fff;
 	border:none;
 
 }
 
 .boton:hover {
-		background:#A569BD;
+		background-color: rgba(255,89,0,0.7);
 		cursor: pointer;
 		color:#000;
 
@@ -953,22 +965,25 @@ article {
 /*para la parte de cursos.html, talleres.html y seminarios.html*/
 .contenedorC{
 	width: 960px;
-	height: 1210px;
+	height: auto;
 	margin: 0px auto;
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
 .C{
 	width: 620px;
-	height: 1200px;
+	height: auto;
 	float: left;
 	margin-right: 15px;
 }
-.testimonios{
-	width: 300px;
-	height: 1200px;
+.testimoniosC{
+	width: 320px;
+	height: auto;
 	float: left;
-	background-color: darkred;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: aliceblue;
+    border-radius: 5%;
 }
 .informacionC{    
     width:600px;
@@ -1012,22 +1027,25 @@ article {
 
 .contenedorT{
 	width: 960px;
-	height: 550px;
+	height: auto;
 	margin: 0px auto;
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
 .T{
 	width: 620px;
-	height: 500px;
+	height: auto;
 	float: left;
 	margin-right: 15px;
 }
 .testimoniosT{
-	width: 300px;
-	height: 500px;
+	width: 320px;
+	height: auto;
 	float: left;
-	background-color: darkred;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: aliceblue;
+    border-radius: 5%;
 }
 .informacionT{    
     width:600px;
@@ -1074,22 +1092,25 @@ article {
 
 .contenedorS{
 	width: 960px;
-	height: 550px;
+	height: auto;
 	margin: 0px auto;
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
 .S{
 	width: 620px;
-	height: 500px;
+	height: auto;
 	float: left;
 	margin-right: 15px;
 }
 .testimoniosS{
-	width: 300px;
-	height: 500px;
+	width: 320px;
+	height: auto;
 	float: left;
-	background-color: darkred;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: aliceblue;
+    border-radius: 5%;
 }
 .informacionS{    
     width:600px;
@@ -1131,4 +1152,168 @@ article {
 .contenidoS{
 	height: 350px;
 }
+
+
+
+/*PARA EÑ verCompleto.php*/
+.contenedorVC{
+	width: 960px;
+	/*height: 630px;*/
+	height: auto;
+	margin: 0px auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.VC{
+	width: 620px;
+	/*height: 500px;*/
+	height: auto;
+	float: left;
+	margin-right: 15px;
+}
+.testimoniosVC{
+	width: 320px;
+	height: auto;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: aliceblue;
+    border-radius: 5%;
+}
+.informacionVC{    
+    width:600px;
+    height:auto;    
+    margin: 10px;
+}
+.tituloVC{
+	height: 80px;
+	background: rgba(215,44,44,0.9);
+}
+
+
+.tituloVC:hover{
+	height: 80px;
+	background: rgba(215,44,44,0.7);
+	cursor: pointer;
+}
+.imagenTituloVC{
+	width: 20%;
+	height: 60px;
+	float: left;
+	
+}
+.letraTituloVC{
+	width: 80%;
+	height: 40px;
+	font-size: 25px;
+	text-align: center;
+	color: #ffffff;
+	line-height: 40px;
+	float: left;
+}
+.imagenesTituloVC{
+	width: 70%;
+	height: 70px;
+	margin: 5px;
+	border-radius: 100%;
+}
+.contenido1{
+	background: rgba(215,44,44,0.3);
+	text-decoration: none;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Viga', sans-serif;
+	display: none;
+}
+.contenido2{
+	background: rgba(12,155,255,0.3);
+	text-decoration: none;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Viga', sans-serif;
+	display: none;
+}
+.contenido3{
+	background: rgba(215,44,44,0.3);
+	text-decoration: none;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Viga', sans-serif;
+	display: none;
+}
+.ancla{
+	top:600px;
+	width: 300px;
+	height: 50px;
+	z-index: 10000;
+	position: absolute;
+}
+.borrar{
+	
+	clear: both;
+}
+
+
+.tituloTestimonios{
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Viga', sans-serif;
+}
+.testimonio1{
+	width: 250px;
+	height: auto;
+	margin-top: 25px;
+	margin-left: 25px;
+	
+	
+}
+.imagenTestimonio{
+	width: 20%;
+	height: 170px;
+	float: left;
+}
+.textoTestimonio{
+	width: 80%;
+	height: 150px;
+	float: left;
+	text-align: center;
+	font-family: 'Viga', sans-serif;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 20px;
+	background-color: mintcream;
+	border: #000000 solid 2px;
+	border-radius: 10%;
+}
+
+.imagenesTituloTest{
+	width: 70%;
+	height: 40px;
+	margin: 5px;
+	
+	border-radius: 100%;
+}
+
+ /*PARA LA VENTANA DE SUSCRIBET*/
+
+.suscribeteP{
+	width: 100%;
+	height: auto;
+
+}
+
+.suscribeteH{
+	width: 960px;
+	height: auto;
+	margin: 0px auto;
+}
+.titulosuscribete{
+	
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Viga', sans-serif;
+}   
 

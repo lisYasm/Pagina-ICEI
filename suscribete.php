@@ -5,14 +5,17 @@
 	include("cabecera.php");
 ?>
 
-
+<a class="ancla" name="suscribete"></a>
 <div class="suscribeteP"> <!--PADRE-->
     <div class="suscribeteH">   <!--hijo de SLIDER-->
+         <br>
+          <div class="barra3"> 
+				<font>SUSCRIBETE</font>
+			</div>		
            <article>
-               <p align="center">
-                   Si quieres ver mas video turoriales de nuestros cursos 
-                   <h2 align="center">SUSCRIBETE ...!!! </h2> 
-               </p>
+               <P class="titulosuscribete">
+                   Si te interesan nuestros cursos, talleres, seminarios REGISTRATE.
+               </P>
            </article>
             <form>
                 
@@ -25,10 +28,10 @@
                     <label for="email">EMAIL: </label>
                     <input type="text" name="" id="email" placeholder="EMAIL"> 
 
-                    <label for="nombre">TELEFONO: </label>
-                    <input type="text" name="" id="telefono" placeholder="TELEFONO" required=""> 
-
-                        <select name="cursos" class="combobox" required>
+                    <label for="nombre">CELULAR: </label>
+                    <input type="text" name="" id="telefono" placeholder="CELULAR" required=""> 
+					<label for="nombre">CARRERAS: </label>
+                        <select name="carreras" class="combobox" required>
                           <option value="C01">--CARRERAS--</option>
                           <option value="C01">DISEÑO E IMPLEMENTACION DE REDES</option>
                           <option value="C02">MICRO AUTOMATIZACION Y CONTROL</option>                          
@@ -40,7 +43,7 @@
                           <option value="C03">ANDROID</option>
                         </select>
 
-
+							<br>
                     <input type="submit" value="SUSCRIBIRTE" class="boton"> 
 
 
