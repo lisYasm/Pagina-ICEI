@@ -1061,14 +1061,14 @@ article {
 }
 .imagenTituloT{
 	width: 20%;
-	height: 100px;
+	height: 130px;
 	
 	float: left;
 	
 }
 .letraTituloT{
 	width: 80%;
-	height: 100px;
+	height: 130px;
 	font-size: 25px;
 	text-align: center;
 	/*vertical-align: center;
@@ -1125,14 +1125,14 @@ article {
 }
 .imagenTituloS{
 	width: 20%;
-	height: 100px;
+	height: 130px;
 	
 	float: left;
 	
 }
 .letraTituloS{
 	width: 80%;
-	height: 100px;
+	height: 130px;
 	font-size: 25px;
 	text-align: center;
 	/*vertical-align: center;

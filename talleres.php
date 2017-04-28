@@ -130,7 +130,7 @@
 					<li>Exportacion al formato vectorial SVG</li>
 					<li>Tecnicas de optimizacion de imagenes</li>
 				</ul>
-					</div>
+			</div>
 			</div>
 			<div class="informacionT">
 			<div class="despliegue" rel="0">
