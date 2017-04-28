@@ -24,21 +24,23 @@
 				</div>
 			</div>
 			<div class="contenido3">
-						<div class="contenido11">Modos de Color, Resolucion, Profundidad de Bits</div>
-						<div class="contenido11">Imagenes de Mapa de Bits e Imagenes </div>
-						<div class="contenido11">Tecnicas Basicas y Avanzadas de seleccion</div>
-						<div class="contenido11">Tecnicas de correcion de imagenes</div>
-						<div class="contenido11">Generacion de Gradientes</div>
-						<div class="contenido11">Diseño de botones, Fondos y Texturas.</div>
-						<div class="contenido11">Estilos y Efectos de capa</div>
-						<div class="contenido11">Principios de maquetacion web</div>
-						<div class="contenido11">Dibujo vectorial para HTML5</div>
-						<div class="contenido11">Principios de dibujo  3D para HTML5</div>
-						<div class="contenido11">Dibujo de Logotipos</div>
-						<div class="contenido11">Macaras</div>
-						<div class="contenido11">Exportacion al formato vectorial SVG</div>
-						<div class="contenido11">Tecnicas de optimizacion de imagenes</div>
-					</div>
+				<ul>
+					<li>Modos de Color, Resolucion, Profundidad de Bits</li>
+					<li>Imagenes de Mapa de Bits e Imagenes</li>
+					<li>Tecnicas Basicas y Avanzadas de seleccion</li>
+					<li>Tecnicas de correcion de imagenes</li>
+					<li>Generacion de Gradientes</li>
+					<li>Diseño de botones, Fondos y Texturas.</li>
+					<li>Estilos y Efectos de capa</li>
+					<li>Principios de maquetacion web</li>
+					<li>Dibujo vectorial para HTML5</li>
+					<li>Principios de dibujo  3D para HTML5</li>
+					<li>Dibujo de Logotipos</li>
+					<li>Macaras</li>
+					<li>Exportacion al formato vectorial SVG</li>
+					<li>Tecnicas de optimizacion de imagenes</li>
+				</ul>
+			</div>
 			</div>
 			<div class="informacionT">
 			<div class="despliegue" rel="0">
@@ -51,22 +53,24 @@
 					</div>
 				</div>
 			</div>
-			<div class="contenido3">
-						<div class="contenido11">Modos de Color, Resolucion, Profundidad de Bits</div>
-						<div class="contenido11">Imagenes de Mapa de Bits e Imagenes </div>
-						<div class="contenido11">Tecnicas Basicas y Avanzadas de seleccion</div>
-						<div class="contenido11">Tecnicas de correcion de imagenes</div>
-						<div class="contenido11">Generacion de Gradientes</div>
-						<div class="contenido11">Diseño de botones, Fondos y Texturas.</div>
-						<div class="contenido11">Estilos y Efectos de capa</div>
-						<div class="contenido11">Principios de maquetacion web</div>
-						<div class="contenido11">Dibujo vectorial para HTML5</div>
-						<div class="contenido11">Principios de dibujo  3D para HTML5</div>
-						<div class="contenido11">Dibujo de Logotipos</div>
-						<div class="contenido11">Macaras</div>
-						<div class="contenido11">Exportacion al formato vectorial SVG</div>
-						<div class="contenido11">Tecnicas de optimizacion de imagenes</div>
-					</div>
+				<div class="contenido3">
+					<ul>
+						<li>Modos de Color, Resolucion, Profundidad de Bits</li>
+						<li>Imagenes de Mapa de Bits e Imagenes</li>
+						<li>Tecnicas Basicas y Avanzadas de seleccion</li>
+						<li>Tecnicas de correcion de imagenes</li>
+						<li>Generacion de Gradientes</li>
+						<li>Diseño de botones, Fondos y Texturas.</li>
+						<li>Estilos y Efectos de capa</li>
+						<li>Principios de maquetacion web</li>
+						<li>Dibujo vectorial para HTML5</li>
+						<li>Principios de dibujo  3D para HTML5</li>
+						<li>Dibujo de Logotipos</li>
+						<li>Macaras</li>
+						<li>Exportacion al formato vectorial SVG</li>
+						<li>Tecnicas de optimizacion de imagenes</li>
+					</ul>
+				</div>
 			</div>
 			<div class="informacionT">
 			<div class="despliegue" rel="0">
@@ -80,20 +84,22 @@
 				</div>
 			</div>
 				<div class="contenido3">
-						<div class="contenido11">Modos de Color, Resolucion, Profundidad de Bits</div>
-						<div class="contenido11">Imagenes de Mapa de Bits e Imagenes </div>
-						<div class="contenido11">Tecnicas Basicas y Avanzadas de seleccion</div>
-						<div class="contenido11">Tecnicas de correcion de imagenes</div>
-						<div class="contenido11">Generacion de Gradientes</div>
-						<div class="contenido11">Diseño de botones, Fondos y Texturas.</div>
-						<div class="contenido11">Estilos y Efectos de capa</div>
-						<div class="contenido11">Principios de maquetacion web</div>
-						<div class="contenido11">Dibujo vectorial para HTML5</div>
-						<div class="contenido11">Principios de dibujo  3D para HTML5</div>
-						<div class="contenido11">Dibujo de Logotipos</div>
-						<div class="contenido11">Macaras</div>
-						<div class="contenido11">Exportacion al formato vectorial SVG</div>
-						<div class="contenido11">Tecnicas de optimizacion de imagenes</div>
+					<ul>
+						<li>Modos de Color, Resolucion, Profundidad de Bits</li>
+						<li>Imagenes de Mapa de Bits e Imagenes</li>
+						<li>Tecnicas Basicas y Avanzadas de seleccion</li>
+						<li>Tecnicas de correcion de imagenes</li>
+						<li>Generacion de Gradientes</li>
+						<li>Diseño de botones, Fondos y Texturas.</li>
+						<li>Estilos y Efectos de capa</li>
+						<li>Principios de maquetacion web</li>
+						<li>Dibujo vectorial para HTML5</li>
+						<li>Principios de dibujo  3D para HTML5</li>
+						<li>Dibujo de Logotipos</li>
+						<li>Macaras</li>
+						<li>Exportacion al formato vectorial SVG</li>
+						<li>Tecnicas de optimizacion de imagenes</li>
+					</ul>
 					</div>
 			</div>
 			<div class="informacionT">
@@ -108,20 +114,22 @@
 				</div>
 			</div>
 			<div class="contenido3">
-						<div class="contenido11">Modos de Color, Resolucion, Profundidad de Bits</div>
-						<div class="contenido11">Imagenes de Mapa de Bits e Imagenes </div>
-						<div class="contenido11">Tecnicas Basicas y Avanzadas de seleccion</div>
-						<div class="contenido11">Tecnicas de correcion de imagenes</div>
-						<div class="contenido11">Generacion de Gradientes</div>
-						<div class="contenido11">Diseño de botones, Fondos y Texturas.</div>
-						<div class="contenido11">Estilos y Efectos de capa</div>
-						<div class="contenido11">Principios de maquetacion web</div>
-						<div class="contenido11">Dibujo vectorial para HTML5</div>
-						<div class="contenido11">Principios de dibujo  3D para HTML5</div>
-						<div class="contenido11">Dibujo de Logotipos</div>
-						<div class="contenido11">Macaras</div>
-						<div class="contenido11">Exportacion al formato vectorial SVG</div>
-						<div class="contenido11">Tecnicas de optimizacion de imagenes</div>
+				<ul>
+					<li>Modos de Color, Resolucion, Profundidad de Bits</li>
+					<li>Imagenes de Mapa de Bits e Imagenes</li>
+					<li>Tecnicas Basicas y Avanzadas de seleccion</li>
+					<li>Tecnicas de correcion de imagenes</li>
+					<li>Generacion de Gradientes</li>
+					<li>Diseño de botones, Fondos y Texturas.</li>
+					<li>Estilos y Efectos de capa</li>
+					<li>Principios de maquetacion web</li>
+					<li>Dibujo vectorial para HTML5</li>
+					<li>Principios de dibujo  3D para HTML5</li>
+					<li>Dibujo de Logotipos</li>
+					<li>Macaras</li>
+					<li>Exportacion al formato vectorial SVG</li>
+					<li>Tecnicas de optimizacion de imagenes</li>
+				</ul>
 					</div>
 			</div>
 			<div class="informacionT">
@@ -135,22 +143,24 @@
 					</div>
 				</div>
 			</div>
-			<div class="contenido3">
-						<div class="contenido11">Modos de Color, Resolucion, Profundidad de Bits</div>
-						<div class="contenido11">Imagenes de Mapa de Bits e Imagenes </div>
-						<div class="contenido11">Tecnicas Basicas y Avanzadas de seleccion</div>
-						<div class="contenido11">Tecnicas de correcion de imagenes</div>
-						<div class="contenido11">Generacion de Gradientes</div>
-						<div class="contenido11">Diseño de botones, Fondos y Texturas.</div>
-						<div class="contenido11">Estilos y Efectos de capa</div>
-						<div class="contenido11">Principios de maquetacion web</div>
-						<div class="contenido11">Dibujo vectorial para HTML5</div>
-						<div class="contenido11">Principios de dibujo  3D para HTML5</div>
-						<div class="contenido11">Dibujo de Logotipos</div>
-						<div class="contenido11">Macaras</div>
-						<div class="contenido11">Exportacion al formato vectorial SVG</div>
-						<div class="contenido11">Tecnicas de optimizacion de imagenes</div>
-					</div>
+				<div class="contenido3">
+					<ul>
+						<li>Modos de Color, Resolucion, Profundidad de Bits</li>
+						<li>Imagenes de Mapa de Bits e Imagenes</li>
+						<li>Tecnicas Basicas y Avanzadas de seleccion</li>
+						<li>Tecnicas de correcion de imagenes</li>
+						<li>Generacion de Gradientes</li>
+						<li>Diseño de botones, Fondos y Texturas.</li>
+						<li>Estilos y Efectos de capa</li>
+						<li>Principios de maquetacion web</li>
+						<li>Dibujo vectorial para HTML5</li>
+						<li>Principios de dibujo  3D para HTML5</li>
+						<li>Dibujo de Logotipos</li>
+						<li>Macaras</li>
+						<li>Exportacion al formato vectorial SVG</li>
+						<li>Tecnicas de optimizacion de imagenes</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 		<div class="testimoniosT">

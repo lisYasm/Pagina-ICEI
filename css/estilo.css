@@ -995,7 +995,6 @@ article {
 	background: rgba(115,74,255,0.7);
 }
 .tituloCu:hover{
-	height: 100px;
 	background: rgba(115,74,255,0.9);
 	cursor: pointer;
 }
@@ -1053,11 +1052,10 @@ article {
     margin: 10px;
 }
 .tituloT{
-	height: 100px;
+	height: 130px;
 	background: rgba(215,44,44,0.7);
 }
 .tituloT:hover{
-	height: 100px;
 	background: rgba(215,44,44,0.9);
 	cursor: pointer;
 }
@@ -1118,11 +1116,10 @@ article {
     margin: 10px;
 }
 .tituloS{
-	height: 100px;
+	height: 130px;
 	background: rgba(12,155,255,0.7);
 }
 .tituloS:hover{
-	height: 100px;
 	background: rgba(12,155,255,0.9);
 	cursor: pointer;
 }
