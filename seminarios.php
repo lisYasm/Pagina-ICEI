@@ -20,6 +20,7 @@
 					</div>
 					<div class="letraTituloT">
 						SERVIDORES EMPRESIARALES
+						<h4 class="titT">Fecha: 01/04/17    |     Hora: 17:00 - 19:00 </h4>
 					</div>
 				</div>
 			</div>
@@ -47,7 +48,8 @@
 						<img class="imagenesTituloS"src="imagenes/iconos/pruebita3.png">
 					</div>
 					<div class="letraTituloT">
-						ARQUITECTURA ORIENTADA A SERVICIOS - SOA
+						ARQUITECTURA ORIENTADA A SERVICIOS
+						<h4 class="titT">Fecha: 30/11/17    |     Hora: 19:00 - 21:00 </h4>
 					</div>
 				</div>
 			</div>
@@ -76,6 +78,7 @@
 					</div>
 					<div class="letraTituloT">
 						VIRTUALIZACION EMPRESARIAL
+						<h4 class="titT">Fecha: 03/11/17    |     Hora: 18:00 - 20:00 </h4>
 					</div>
 				</div>
 			</div>
@@ -104,6 +107,7 @@
 					</div>
 					<div class="letraTituloT">
 						LARAVEL 5
+						<h4 class="titT">Fecha: 17/12/17    |     Hora: 19:00 - 21:00 </h4>
 					</div>
 				</div>
 			</div>
@@ -132,6 +136,7 @@
 					</div>
 					<div class="letraTituloT">
 						DISEÑO DE INTERFAZ EN C#
+						<h4 class="titT">Fecha: 10/04/17    |     Hora: 14:00 - 16:00 </h4>
 					</div>
 				</div>
 			</div>

@@ -1053,10 +1053,10 @@ article {
 }
 .tituloT{
 	height: 130px;
-	background: rgba(215,44,44,0.7);
+	background: rgba(215,44,44,0.9);
 }
 .tituloT:hover{
-	background: rgba(215,44,44,0.9);
+	background: rgba(215,44,44,0.7);
 	cursor: pointer;
 }
 .imagenTituloT{
@@ -1077,6 +1077,12 @@ article {
 	line-height: 40px;
 	float: left;
 }
+.titT{
+	color:#3A2F2F;
+	
+}
+
+
 .imagenesTituloT{
 	width: 70%;
 	height: auto;

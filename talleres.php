@@ -20,6 +20,7 @@
 					</div>
 					<div class="letraTituloT">
 						IMPLEMENTACION Y ADMINISTRACION DE FIREWALL, PROXI CON QID LINUX
+						<h4 class="titT">Fecha: 01/04/17 - 05/04/17    |     Hora: 17:00 - 19:00 </h4>
 					</div>
 				</div>
 			</div>
@@ -50,6 +51,7 @@
 					</div>
 					<div class="letraTituloT">
 						VIRTUALIZACION EMPRESARIAL
+						<h4 class="titT">Fecha: 25/04/17 - 30/04/17    |     Hora: 17:00 - 19:00 </h4>
 					</div>
 				</div>
 			</div>
@@ -80,6 +82,7 @@
 					</div>
 					<div class="letraTituloT">
 						BOOTSTRAP 4
+						<h4 class="titT">Fecha: 01/11/17 - 05/11/17    |     Hora: 19:00 - 21:00 </h4>
 					</div>
 				</div>
 			</div>
@@ -110,6 +113,7 @@
 					</div>
 					<div class="letraTituloT">
 						LARAVEL 5
+						<h4 class="titT">Fecha: 01/10/17 - 05/10/17    |     Hora: 15:00 - 17:00 </h4>
 					</div>
 				</div>
 			</div>
@@ -130,7 +134,7 @@
 					<li>Exportacion al formato vectorial SVG</li>
 					<li>Tecnicas de optimizacion de imagenes</li>
 				</ul>
-			</div>
+					</div>
 			</div>
 			<div class="informacionT">
 			<div class="despliegue" rel="0">
@@ -140,6 +144,7 @@
 					</div>
 					<div class="letraTituloT">
 						DISEÑO DE PLACAS
+						<h4 class="titT">Fecha: 11/04/17 - 20/04/17    |     Hora: 19:00 - 21:00 </h4>
 					</div>
 				</div>
 			</div>
